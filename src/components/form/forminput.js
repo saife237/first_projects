@@ -36,6 +36,10 @@ event.preventDefault()
       <label>Email</label>
               <input type="email" value={email} onChange={this.handleEmailChange}/>
       </div>
+      <div>
+      <label>Email</label>
+              <input type="email" value={email} onChange={this.handleEmailChange}/>
+      </div>
       <button type='submit'>Submit</button>
       </form>
     )
