@@ -65,6 +65,10 @@ this.setState({
         <label className='Message'>Message</label>
         <textarea className='input'/>
       </div>
+      <div>
+      <label>Email</label>
+              <input type="email" value={email} onChange={this.handleEmailChange}/>
+      </div>
       <button type='submit'>Submit</button>
       </form>
       </div>
